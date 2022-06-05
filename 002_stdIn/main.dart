@@ -1,5 +1,6 @@
 import 'dart:io';
 
 main() {
-  print("Hello " + (stdin.readLineSync() ?? " - Error"));
+  //As readLineSync can return null we need to set a default value
+  print("Hello1 " + (stdin.readLineSync() ?? " - Error"));
 }
