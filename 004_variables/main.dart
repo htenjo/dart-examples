@@ -5,11 +5,6 @@ main() {
   printDoubles();
   printStrings();
   printBooleans();
-  printLists();
-  printSets();
-  printMaps();
-  printRunes();
-  printSymbols();
   printTypes();
   printDynamicVariables();
   printVarsConstFinal();
@@ -75,16 +70,6 @@ void printBooleans() {
   bool bool1 = true;
   print(bool1);
 }
-
-void printLists() {}
-
-void printSets() {}
-
-void printMaps() {}
-
-void printRunes() {}
-
-void printSymbols() {}
 
 void printTypes() {
   print(1.runtimeType);
